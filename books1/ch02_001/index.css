@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* 基本色 */
+/* :rootはHTML全体の擬似要素 */
+:root {
+    --main-color: #5D9AB2;
+    --accent-color: #BF6A7A;
+    --dark-main-color: #2B5566;
+}
+
+
+/* 基本設定： ページ全体 */
+body {
+    /*font-family: 'メイリオ',
+    'Hiragino Kaku Gothic Pro',
+    sans-serif; */
+    font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+
+
+/* コンテンツA： ヒーローイメージ */
+.conA {
+    text-align: center;
+}
+
+.conA h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 15vw;
+}
+
+.conA p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+/* 標準 */
+
+/*@media (min-width: 768px) {
+    .conA h1 {
+        font-size: 115px;
+    }
+
+    .conA p {
+        font-size: 24px;
+    }
+}*/
+
+/* ちょっと変だね */
+
+/*@media (min-width: 900px) {
+    .conA h1 {
+        font-size: 115px;
+    }
+
+    .conA p {
+        font-size: 24px;
+    }
+}
+*/
+
+
+/* ちょっと変だね */
+
+@media (min-width: 800px) {
+    .conA h1 {
+        font-size: 90px;
+    }
+
+    .conA p {
+        font-size: 24px;
+    }
+}
+
+
