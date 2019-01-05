@@ -3,8 +3,19 @@
 <head>
 <style type="text/css">
 
+.container0 {
+  background-color: DodgerBlue;
+}
+.container0 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
 .container1 {
-  display: flex; /* or inline-flex */
+  display: flex;
   background-color: DodgerBlue;
 }
 
@@ -21,12 +32,30 @@
 </head>
 <body>
 
+<h1>display</h1>
+
+<h2>display: flex  がOFF!</h2>
+offだと自然と縦に並ぶよね。
+
+<div class="container0">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+</div>
+
+<h2>display: flex  がON!</h2>
 
 <div class="container1">
   <div>1</div>
   <div>2</div>
   <div>3</div>
+  <div>4</div>
+  <div>5</div>
 </div>
+
+<hr>
 
 
 </body>

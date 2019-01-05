@@ -1,0 +1,23 @@
+{
+  "name": "gulp_sass1",
+  "version": "1.0.0",
+  "description": "``` npm init -y npm i -D gulp ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "compass-mixins": "^0.12.10"
+  }
+}
